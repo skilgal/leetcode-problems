@@ -20,24 +20,7 @@ package problem
 object MaxNestingDepthParentheses extends App {
 
   def maxDepth(s: String): Int = {
-
-    val parentheses = """\((.*?)\)(.*?)$""".r
-
-    def depthCounter(s: String): Int =
-      s match {
-        case parentheses(f, left) =>
-          println(s"f is ${f}")
-          println(s"left is ${left}")
-          Math.max(depthCounter(f), depthCounter(left)) + 1
-        case some =>
-          println(s"unparsed ${some}")
-          0
-      }
-
-    maxDepth(s)
-
+    ???
   }
-
-  println(maxDepth("()"))
 
 }

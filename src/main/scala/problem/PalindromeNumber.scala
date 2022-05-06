@@ -36,9 +36,9 @@ object PalindromeNumber extends App {
     else isPalindrome(toDigits(x))
   }
 
-  assert(isPalindrome(121) === true)
-  assert(isPalindrome(-121) === false)
-  assert(isPalindrome(1221) === true)
-  assert(isPalindrome(10) === false)
+  assert(isPalindrome(121) == true)
+  assert(isPalindrome(-121) == false)
+  assert(isPalindrome(1221) == true)
+  assert(isPalindrome(10) == false)
 
 }

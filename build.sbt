@@ -12,13 +12,10 @@ scalaVersion := "2.13.7"
 
 // It's possible to define many kinds of settings, such as:
 
-name := "Leet code problems solving"
-organization := "ch.epfl.scala"
+name := ""
+organization := ""
 version := "1.0"
 
 libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.1.2"
-
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % Test
-
-
-libraryDependencies += "org.typelevel" %% "cats-core" % "2.1.1"
+libraryDependencies += "org.scalatest"          %% "scalatest"                % "3.2.2" % Test
+libraryDependencies += "org.typelevel"          %% "cats-core"                % "2.1.1"
